@@ -44,7 +44,7 @@ def find_lines(con):
   count0 = 0
   result = []
   for rho0,theta0 in lr:
-      if(np.pi/4 < theta0) and (theta0 < np.pi*3/4):
+      #if(np.pi/4 < theta0) and (theta0 < np.pi*3/4):
         catch = 0
         a = np.cos(theta0)
         b = np.sin(theta0)
