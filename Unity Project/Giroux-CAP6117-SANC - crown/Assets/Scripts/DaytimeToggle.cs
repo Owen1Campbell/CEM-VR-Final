@@ -44,7 +44,7 @@ public class DaytimeToggle: MonoBehaviour
     /// Sets up the biography board toggle for closing each or leaving them open.
     /// </summary>
     void Start()
-    {
+    { 
         //Get birds group
         birds = GameObject.FindWithTag("Birds");
         //Fetch the Toggle GameObject
