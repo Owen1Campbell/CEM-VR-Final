@@ -15426,6 +15426,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467549913}
   m_CullTransparentMesh: 1
+--- !u!1 &470363679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 470363680}
+  - component: {fileID: 470363681}
+  m_Layer: 0
+  m_Name: SkyBox Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &470363680
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470363679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2001214128}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &470363681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470363679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fb0d6e79199b42aeb5af0499f8f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DaySky: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
+  NightSky: {fileID: 2100000, guid: d4454f71d85928744be7771e2143dab7, type: 2}
+  RainSky: {fileID: 2100000, guid: 2039a0ad0a9d05549928b70362f54902, type: 2}
 --- !u!1 &476651440
 GameObject:
   m_ObjectHideFlags: 0
@@ -40146,6 +40198,7 @@ MonoBehaviour:
   labelText: {fileID: 913538397}
   particles: {fileID: 1339772104}
   ambientAudio: {fileID: 1070228964}
+  skyBoxControl: {fileID: 470363681}
   databaseControl: {fileID: 2094577283}
 --- !u!1 &987282596
 GameObject:
@@ -42339,9 +42392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   labelText: {fileID: 1004358933}
-  daySky: {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
-  nightSky: {fileID: 2100000, guid: d4454f71d85928744be7771e2143dab7, type: 2}
   ambientAudio: {fileID: 1070228964}
+  skyBoxControl: {fileID: 470363681}
   databaseControl: {fileID: 2094577283}
 --- !u!114 &1016774383
 MonoBehaviour:
@@ -79610,6 +79662,7 @@ RectTransform:
   - {fileID: 985637172}
   - {fileID: 1934991454}
   - {fileID: 32573866}
+  - {fileID: 470363680}
   m_Father: {fileID: 1650618255}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
