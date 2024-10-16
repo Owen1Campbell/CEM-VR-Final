@@ -1,0 +1,299 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kaiya/Documents/GitHub/CEM-VR-Final/Unity Project/Giroux-CAP6117-SANC - crown
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51772
+Successfully changed project path to: C:/Users/kaiya/Documents/GitHub/CEM-VR-Final/Unity Project/Giroux-CAP6117-SANC - crown
+C:/Users/kaiya/Documents/GitHub/CEM-VR-Final/Unity Project/Giroux-CAP6117-SANC - crown
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 57.64 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kaiya/Documents/GitHub/CEM-VR-Final/Unity Project/Giroux-CAP6117-SANC - crown/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002465 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 52.11 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (335ms)
+		BeginReloadAssembly (36ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (243ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (51ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (14ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (47ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005266 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kaiya\Documents\GitHub\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kaiya\Documents\GitHub\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 52.74 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\kaiya\Documents\GitHub\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kaiya\Documents\GitHub\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5f40cdb07bd44d76a23dad985a4ec283>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (793ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (545ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (1.5 MB). Loaded Objects now: 4834.
+Memory consumption went from 177.4 MB to 175.9 MB.
+Total: 2.566200 ms (FindLiveObjects: 0.180500 ms CreateObjectMapping: 0.052100 ms MarkObjects: 2.150500 ms  DeleteObjects: 0.182300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 183879.547403 seconds.
+  path: Assets/Models
+  artifactKey: Guid(fdcbcb706c86ce64082c68f79b132a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(fdcbcb706c86ce64082c68f79b132a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0fc1b2f5547bdc42cf90db09f85cb2') in 0.005904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Models/LeftHand.fbx
+  artifactKey: Guid(bf58f95ed79f0e24291aa1aa1b2ba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LeftHand.fbx using Guid(bf58f95ed79f0e24291aa1aa1b2ba989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aef13f48b4cf7055728738c81c60d5f') in 0.167131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.098841 seconds.
+  path: Assets/Models/Markers
+  artifactKey: Guid(4fdec5deb9197094a9f8fdfd6068602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Markers using Guid(4fdec5deb9197094a9f8fdfd6068602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a216f748e853162831c87b9abf4f481a') in 0.001628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039178 seconds.
+  path: Assets/Models/Markers/monumentsign1.obj
+  artifactKey: Guid(a7dc17efb13922f4ca04bd480a700a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Markers/monumentsign1.obj using Guid(a7dc17efb13922f4ca04bd480a700a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609ea9d679eb32f7296364224bc46bdc') in 0.014305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.011355 seconds.
+  path: Assets/Models/Markers/Textures
+  artifactKey: Guid(9270b2e19254b9f428e1dab95b6bc566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Markers/Textures using Guid(9270b2e19254b9f428e1dab95b6bc566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c1e9a66bcfef45413c03780a94c732') in 0.001460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.866305 seconds.
+  path: Assets/Models/Markers/Textures/monumentsign1.mtl
+  artifactKey: Guid(4e5be0d608b791c4d97a5b738c133835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Markers/Textures/monumentsign1.mtl using Guid(4e5be0d608b791c4d97a5b738c133835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ca4cb1ebfda3d4e3b3e161c415a02f') in 0.002651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 724.871198 seconds.
+  path: Assets/Models/Markers/Textures/signtex1.JPG
+  artifactKey: Guid(49f28ce24a1760946b87d518c46b1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Markers/Textures/signtex1.JPG using Guid(49f28ce24a1760946b87d518c46b1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff1818e530065549823d03f1d446dfb') in 0.056414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.392585 seconds.
+  path: Assets/Prefabs/HSbundle.prefab
+  artifactKey: Guid(5836893b907313a48bc798adba17f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HSbundle.prefab using Guid(5836893b907313a48bc798adba17f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e6a9e6d4a4ded9b0540d0c5189e9cd') in 0.051148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Keyboard.prefab
+  artifactKey: Guid(e50b80e05bf9c684287da295e5cc147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keyboard.prefab using Guid(e50b80e05bf9c684287da295e5cc147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608feb477d6e4951dafc73f969c089b4') in 0.031730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Particles.prefab
+  artifactKey: Guid(1d5c6ade324bd814eaf59789df93efcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particles.prefab using Guid(1d5c6ade324bd814eaf59789df93efcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd194d59f191c1206ad1f6e080b4412') in 0.004461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.353451 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(4eb2954d51b53e342809db543a34db77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(4eb2954d51b53e342809db543a34db77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27bcb36a656f7f15522b0dba5d6dc11') in 0.002111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.899620 seconds.
+  path: Assets/Prefabs/New Folder
+  artifactKey: Guid(6a6fc4822518cd7498e5a5a01f73b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Folder using Guid(6a6fc4822518cd7498e5a5a01f73b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5642e904ec2b28d3f5d9d24787456e4') in 0.005877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076171 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids
+  artifactKey: Guid(f2759295b4ea42343b3760b0c4301fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids using Guid(f2759295b4ea42343b3760b0c4301fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7081837a3bee3715cc70d848012d82f0') in 0.001598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids/FlagContainer.prefab
+  artifactKey: Guid(95b0629b61d962640aff030829a0cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids/FlagContainer.prefab using Guid(95b0629b61d962640aff030829a0cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27428e2f34942cd9a128c854538b09b6') in 0.090453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids/Full pyramid.prefab
+  artifactKey: Guid(16b3cb18f28a2df4488755103ca26e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids/Full pyramid.prefab using Guid(16b3cb18f28a2df4488755103ca26e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0c30bd3748c9e338777a45b667c332') in 0.006446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids/SANC Cem Sign.prefab
+  artifactKey: Guid(a817402c7c3a77e40969702332c5c67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids/SANC Cem Sign.prefab using Guid(a817402c7c3a77e40969702332c5c67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea1eff01e3a6afa427199c116655235') in 0.008091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids/SANC Sign.prefab
+  artifactKey: Guid(ad5f6f9712fd564419ba81d35ca21098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids/SANC Sign.prefab using Guid(ad5f6f9712fd564419ba81d35ca21098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d1ebcb3a374a5b0ac074c4f37dd977') in 0.009845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids/Eagle Base.prefab
+  artifactKey: Guid(ffe283ec14d451544aa83a2118b94d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids/Eagle Base.prefab using Guid(ffe283ec14d451544aa83a2118b94d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41579e07bd173f84cdb7f373102bb2ba') in 0.021494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids/Eagle Top.prefab
+  artifactKey: Guid(b48fd7df52c14b44db71e070fe714b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids/Eagle Top.prefab using Guid(b48fd7df52c14b44db71e070fe714b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2330b47cb38a790c2274530ccb6b1f') in 0.016213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.918958 seconds.
+  path: Assets/Prefabs/Signs Flag Pyramids/monumentsign1.prefab
+  artifactKey: Guid(999070d949f3b444f8b50652d1634f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Signs Flag Pyramids/monumentsign1.prefab using Guid(999070d949f3b444f8b50652d1634f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bca5071dbb47f785224a62f214cc44') in 0.050078 seconds 
