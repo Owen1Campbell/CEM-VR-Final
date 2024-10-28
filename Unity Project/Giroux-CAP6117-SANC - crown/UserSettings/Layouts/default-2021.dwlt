@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 123
+  controlID: 73
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 69
+  controlID: 121
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 70
+  controlID: 122
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 538
+    width: 490
     height: 798
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -211,9 +211,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 538
+    x: 490
     y: 0
-    width: 1415
+    width: 1463
     height: 798
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -296,9 +296,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 538
+    x: 490
     y: 73
-    width: 1413
+    width: 1461
     height: 777
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -501,9 +501,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -36.03462, y: 13.871665, z: -2.501027}
+    m_Target: {x: -20.294693, y: -45.527245, z: -18.235886}
     speed: 2
-    m_Value: {x: -36.03462, y: 13.871665, z: -2.501027}
+    m_Value: {x: -20.294693, y: -45.527245, z: -18.235886}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -550,20 +550,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.166866, y: -0.26841393, z: 0.047273953, w: -0.94758487}
+    m_Target: {x: 0.38329464, y: -0.575832, z: 0.34885505, w: 0.6323688}
     speed: 2
-    m_Value: {x: -0.17105189, y: -0.2696127, z: 0.048737038, w: -0.94640106}
+    m_Value: {x: 0.38275418, y: -0.5767547, z: 0.34941432, w: 0.6314767}
   m_Size:
-    m_Target: 11.150532
+    m_Target: 61.827232
     speed: 2
-    m_Value: 11.150532
+    m_Value: 59.164814
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.94052994
-    m_SpeedNormalized: 0.46999997
+    m_Speed: 1.0005
+    m_SpeedNormalized: 0.49999997
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -603,7 +603,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 537
+    width: 489
     height: 777
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -611,26 +611,26 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 06b10100
-      m_LastClickedID: 110854
-      m_ExpandedIDs: 5204f0ffe2eef3ff3a01f4ffceeff7ff1cf0f7ffc0dbfbffc4edfbff4a01fcffb20cfcff620dfcffeefaffff9a6a0000066d0000d4730000f2780000527a00008a7d00008e7d0000947d0000987d00006eac0100cead010006b10100
+      scrollPos: {x: 0, y: 192}
+      m_SelectedIDs: 76960000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6a4cc4ffb84cc4ff5a38c8ff5a4ac8fff402ecffc2ecefff0801f0ff74eff3fff6f0f3ff44f1f3fffedaf7ff02edf7ff0401f8ffec01f8ff3c02f8ffd0edfbff3200fcff1afbffffb0780000107a0000487d0000527d0000567d0000c080090094920900f493090062a70900decd090088d80900dadc09000abc0c0098d00c00a4d80c00
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Sidewalk Main (39)
+        m_OriginalName: Sidewalk Main (39)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -1318926
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -658,9 +658,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 538
+    x: 490
     y: 73
-    width: 1413
+    width: 1461
     height: 777
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1413, y: 756}
+  m_TargetSize: {x: 1461, y: 756}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -687,8 +687,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -706.5
-    m_HBaseRangeMax: 706.5
+    m_HBaseRangeMin: -730.5
+    m_HBaseRangeMax: 730.5
     m_VBaseRangeMin: -378
     m_VBaseRangeMax: 378
     m_HAllowExceedBaseRangeMin: 1
@@ -699,7 +699,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -708,23 +708,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1413
+      width: 1461
       height: 756
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 706.5, y: 378}
+    m_Translation: {x: 730.5, y: 378}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -706.5
+      x: -730.5
       y: -378
-      width: 1413
+      width: 1461
       height: 756
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1413, y: 777}
+  m_LastWindowPixelSize: {x: 1461, y: 777}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -771,23 +771,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Oak - Agrifolia/FBX
+    - Assets/Models/Map
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Models/Oak - Agrifolia/FBX
+  - Assets/Models/Map
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Documents\Github\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC
     - crown
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 264}
-    m_SelectedIDs: 3a940000
-    m_LastClickedID: 37946
-    m_ExpandedIDs: 00000000329400003494000036940000389400003a9400003c9400007494000000ca9a3b
+    scrollPos: {x: 0, y: 368}
+    m_SelectedIDs: 2c940000
+    m_LastClickedID: 37932
+    m_ExpandedIDs: 00000000ee930000f0930000f2930000f4930000f6930000f89300003094000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -815,7 +815,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000329400003494000036940000389400003a9400003c940000
+    m_ExpandedIDs: 00000000ee930000f0930000f2930000f4930000f6930000f8930000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -843,21 +843,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000ae9500009e95000092950000e42800009a950000
+    m_ExpandedInstanceIDs: c6230000ae9500009e95000092950000e42800009a9500006a9600004a980900729809006c940000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CemeteryAssetsFull
+      m_OriginalName: CemeteryAssetsFull
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 37816
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -867,7 +867,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 127.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
