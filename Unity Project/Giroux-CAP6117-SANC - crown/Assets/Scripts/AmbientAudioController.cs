@@ -26,6 +26,9 @@ public class AmbientAudioController : MonoBehaviour
         rain= transform.GetChild(2).gameObject;
         taps = transform.GetChild(3).gameObject;
         anthem = transform.GetChild(4).gameObject;
+        taps.SetActive(false);
+        anthem.SetActive(false);
+        rain.SetActive(false);
     }
 
     public void ToggleTaps()

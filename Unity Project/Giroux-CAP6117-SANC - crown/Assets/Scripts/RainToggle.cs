@@ -42,12 +42,13 @@ public class RainToggle : MonoBehaviour
         theToggle = GetComponent<Toggle>();
         // default it to on
         theToggle.isOn = false;
+        particles.gameObject.SetActive(false);
         //Add listener for when the state of the Toggle changes, to take action
         theToggle.onValueChanged.AddListener(delegate {
             ToggleValueChanged(theToggle);
         });
 
-        particles.gameObject.SetActive(false);
+        
     }
 
     /// <summary>
