@@ -46,6 +46,8 @@ public class RainToggle : MonoBehaviour
         theToggle.onValueChanged.AddListener(delegate {
             ToggleValueChanged(theToggle);
         });
+
+        particles.gameObject.SetActive(false);
     }
 
     /// <summary>
