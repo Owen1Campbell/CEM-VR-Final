@@ -196,3 +196,203 @@ Received Import Request.
   path: Assets/Materials/Materials/Raindrop Particle.png
   artifactKey: Guid(650d51c02d395244a89a539552bd4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Materials/Raindrop Particle.png using Guid(650d51c02d395244a89a539552bd4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665938f43509b49409c2b6fd167621ce') in 0.313906 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039036 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5f40cdb07bd44d76a23dad985a4ec283>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2494ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (1962ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (537ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1032ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (749ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 25.31 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 4308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.5 MB). Loaded Objects now: 4891.
+Memory consumption went from 176.1 MB to 174.6 MB.
+Total: 8.506300 ms (FindLiveObjects: 0.823200 ms CreateObjectMapping: 0.514600 ms MarkObjects: 6.409800 ms  DeleteObjects: 0.756000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248.152478 seconds.
+  path: Assets/Materials/Materials/Raindrop Particle.png
+  artifactKey: Guid(650d51c02d395244a89a539552bd4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Raindrop Particle.png using Guid(650d51c02d395244a89a539552bd4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f5dd440ffcff2c990e985e0ad36824') in 0.120157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.443794 seconds.
+  path: Assets/Materials/Materials/Raindrop Particle.png
+  artifactKey: Guid(650d51c02d395244a89a539552bd4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Raindrop Particle.png using Guid(650d51c02d395244a89a539552bd4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9091855943985221a6f8b686aaedd74c') in 0.223127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.020570 seconds.
+  path: Assets/Materials/Materials/Ripple Particle.png
+  artifactKey: Guid(7e5f6f0dfcf4f4042bd16759c26b9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Ripple Particle.png using Guid(7e5f6f0dfcf4f4042bd16759c26b9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9652065fbb2218e61ea2843074006320') in 0.034071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.938877 seconds.
+  path: Assets/Materials/Materials/Ripple Particle.png
+  artifactKey: Guid(7e5f6f0dfcf4f4042bd16759c26b9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Ripple Particle.png using Guid(7e5f6f0dfcf4f4042bd16759c26b9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a5997f67e83cd29f24f4dbb9e72f4d') in 0.070863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1155.143116 seconds.
+  path: Assets/Materials/Materials/ripple.mat
+  artifactKey: Guid(595a9d9297fe0874d87d490af95edcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/ripple.mat using Guid(595a9d9297fe0874d87d490af95edcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dffa14cebf7a124833d67db9a290927') in 0.079984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 745.939474 seconds.
+  path: Assets/Materials/Materials/raindrop.mat
+  artifactKey: Guid(afd65ff67dfa1a547ab696cfdffb4823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/raindrop.mat using Guid(afd65ff67dfa1a547ab696cfdffb4823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238d227f2f10b77d84dd260cac57581a') in 0.079047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.086918 seconds.
+  path: Assets/Audio/Rain-and-storm-2(chosic.com).mp3
+  artifactKey: Guid(74ca1840caaba5f40accadb300a520c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Rain-and-storm-2(chosic.com).mp3 using Guid(74ca1840caaba5f40accadb300a520c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcb20fd9cd4487fb8f3c8d01fb10cb9') in 0.379328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.492382 seconds.
+  path: Assets/Audio/CleanTweet.mp3
+  artifactKey: Guid(c45c26a07de9e554eb13121b1f0165ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/CleanTweet.mp3 using Guid(c45c26a07de9e554eb13121b1f0165ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae1032c3f2aa4f38a7d30fc6778d3ed') in 0.038243 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020333 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\CEM-VR-Final\Unity Project\Giroux-CAP6117-SANC - crown\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5f40cdb07bd44d76a23dad985a4ec283>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.501 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2504ms)
+		BeginReloadAssembly (562ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (299ms)
+		EndReloadAssembly (1754ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (913ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (633ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.64 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 4311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.5 MB). Loaded Objects now: 4904.
+Memory consumption went from 176.3 MB to 174.8 MB.
+Total: 7.766600 ms (FindLiveObjects: 0.479400 ms CreateObjectMapping: 0.169200 ms MarkObjects: 6.357700 ms  DeleteObjects: 0.758500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 120.706587 seconds.
+  path: Assets/Materials/Materials/ripple.mat
+  artifactKey: Guid(fe671f586fcc24348a01e324f69aa019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/ripple.mat using Guid(fe671f586fcc24348a01e324f69aa019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99394cd01493d4715b1b7df64cc9d4a4') in 0.134374 seconds 
