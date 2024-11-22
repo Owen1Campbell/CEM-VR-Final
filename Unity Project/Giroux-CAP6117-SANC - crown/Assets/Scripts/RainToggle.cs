@@ -23,6 +23,7 @@ public class RainToggle : MonoBehaviour
     /// Holds a reference to the the audio controller for the ambient sounds.
     /// </summary>
     public AmbientAudioController ambientAudio;
+    public SkyBoxControl skyBoxControl;
     private GameObject birds;
 
     /// <summary>
@@ -41,10 +42,13 @@ public class RainToggle : MonoBehaviour
         theToggle = GetComponent<Toggle>();
         // default it to on
         theToggle.isOn = false;
+        particles.gameObject.SetActive(false);
         //Add listener for when the state of the Toggle changes, to take action
         theToggle.onValueChanged.AddListener(delegate {
             ToggleValueChanged(theToggle);
         });
+
+        
     }
 
     /// <summary>
@@ -67,6 +71,7 @@ public class RainToggle : MonoBehaviour
         /// Changes weather betweening raining and not raining.
         /// </summary>
         ambientAudio.ToggleRain();
+        skyBoxControl.ToggleRain();
         if (theToggle.isOn)
         {
             particles.gameObject.SetActive(true);
@@ -79,4 +84,3 @@ public class RainToggle : MonoBehaviour
         }
     }
 }
-
