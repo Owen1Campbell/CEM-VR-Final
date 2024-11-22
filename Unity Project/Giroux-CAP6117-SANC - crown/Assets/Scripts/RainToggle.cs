@@ -42,7 +42,7 @@ public class RainToggle : MonoBehaviour
         theToggle = GetComponent<Toggle>();
         // default it to on
         theToggle.isOn = false;
-        particles.gameObject.SetActive(false);
+        //particles.gameObject.SetActive(false);
         //Add listener for when the state of the Toggle changes, to take action
         theToggle.onValueChanged.AddListener(delegate {
             ToggleValueChanged(theToggle);
@@ -74,12 +74,14 @@ public class RainToggle : MonoBehaviour
         skyBoxControl.ToggleRain();
         if (theToggle.isOn)
         {
-            particles.gameObject.SetActive(true);
+            //particles.gameObject.SetActive(true);
+            particles.Play();
             birds.SetActive(false);
         } 
         else
         {
-            particles.gameObject.SetActive(false);
+            //particles.gameObject.SetActive(false);
+            particles.Stop();
             birds.SetActive(true);
         }
     }
